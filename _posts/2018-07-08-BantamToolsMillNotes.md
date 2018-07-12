@@ -26,7 +26,7 @@ This board is a good example of what the default settings generates.
 
 [![Board with default settings]({{ "/images/IMG_5368.jpg" | absolute_url }})](/images/IMG_5368_large.jpg)
 
-While the large islands of copper might be desirable (free ground planes?), the strips left between the traces and the little random bits can be a problem. It's not difficult to accidentally get a solder bridge when soldering components, and some of the tiny copper dots may have tiny whiskers from the milling process that remain even after scuffing or sanding.
+While the large islands of copper might be desirable (free ground planes?), the strips left between the traces and the little random bits can be a problem. It's not difficult to accidentally get a solder bridge when soldering components, and some of the tiny copper dots may have tiny whiskers from the milling process that remain even after scuffing or sanding. Might be fine, but I'm not confident with the resulting board.
 
 The fix for this is easy. Open the Advanced pane and increase the Trace Clearance until it's removed all the copper you want.
 
