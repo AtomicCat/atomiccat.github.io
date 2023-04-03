@@ -23,13 +23,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://atomiccat.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  atomiccat
 timezone: America/Los_Angeles
+include: [".well-known"]
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll/mastodon_webfinger
 
 mastodon:
   username: thinbits
