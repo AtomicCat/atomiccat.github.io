@@ -21,7 +21,6 @@ author: Dave Camp
 #  Documenting my failures so others don't repeat them…
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://atomiccat.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  atomiccat
 timezone: America/Los_Angeles
 include: [".well-known"]
 
@@ -31,14 +30,15 @@ theme: minima
 plugins:
   - jekyll-feed
 
+github_username:  atomiccat
 mastodon:
-  username: thinbits
-  instance: pdx.social
+  - username: thinbits
+    instance: pdx.social
 
-minima:
-  social_links:
-    - { platform: github,  user_url: "https://github.com/atomiccat" }
-    - { platform: mastodon, user_url: "https://pdx.social/@thinbits" }
+# minima:
+#   social_links:
+#     - { platform: github,  user_url: "https://github.com/atomiccat" }
+#     - { platform: mastodon, username: "thinbits", instance: "https://pdx.social"}
     
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
