@@ -21,7 +21,6 @@ author: Dave Camp
 #  Documenting my failures so others don't repeat them…
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://atomiccat.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: thinbits
 github_username:  atomiccat
 timezone: America/Los_Angeles
 
@@ -30,7 +29,17 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll/mastodon_webfinger
 
+mastodon:
+  username: thinbits
+  instance: pdx.social
+
+minima:
+  social_links:
+    - { platform: github,  user_url: "https://github.com/atomiccat" }
+    - { platform: mastodon, user_url: "https://pdx.social/@thinbits" }
+    
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

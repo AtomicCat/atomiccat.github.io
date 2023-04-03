@@ -29,6 +29,8 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-feed (0.10.0)
       jekyll (~> 3.3)
+    jekyll-mastodon_webfinger (1.0.2)
+      jekyll (>= 3.0, < 5.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-seo-tag (2.5.0)
@@ -67,8 +69,9 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.8.3)
   jekyll-feed (~> 0.6)
+  jekyll-mastodon_webfinger (~> 1.0)
   minima (~> 2.0)
   tzinfo-data
 
 BUNDLED WITH
-   1.16.2
+   2.4.10
