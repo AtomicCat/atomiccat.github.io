@@ -8,7 +8,7 @@ Unable to find a set of cup holders for my 67 Cobra that fit in the limited spac
 
 After several iterations in Fusion 360, I came up with this three piece design. I split the cup holders in half and made the cubby separate as well to accommodate the size of my print bed.
 
-![FusionScreenshot](/images/Cupholders/FusionScreenshot.png)
+![FusionScreenshot](/images/CupHolders/FusionScreenshot.png)
 
 I printed these with PolyMaker PloyLite PLA Pro and then epoxied them  together. The basic design fits the space between the seats without obstructing anything and its large enough to not tip over.
 
@@ -28,12 +28,12 @@ I forgot to take pictures of the flocking process, but it's simple (if a bit mes
 
 I think the resulting finish not only looks good, but matches the carpet close enough it doesn't call attention to itself.
 
-![Flocked1](/images/Cupholders/Flocked1.jpeg)
+![Flocked1](/images/CupHolders/Flocked1.jpeg)
 
-![Flocked2](/images/Cupholders/Flocked2.jpeg)
+![Flocked2](/images/CupHolders/Flocked2.jpeg)
 
-![Flocked3](/images/Cupholders/Flocked3.jpeg)
+![Flocked3](/images/CupHolders/Flocked3.jpeg)
 
-![Flocked4](/images/Cupholders/Flocked4.jpeg)
+![Flocked4](/images/CupHolders/Flocked4.jpeg)
 
 The aluminum inserts were a bit oversized, so I printed a set of sleeves out of PolyMaker PolyFlex TPU 90. The sleeves just slide in and snug up a bit on my water bottle and dampen rattling sounds.
